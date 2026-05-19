@@ -1,149 +1,103 @@
-# Жужгов Роман Алексеевич
+<div align="center">
 
-**Middle Frontend-разработчик (React, Next.js, TypeScript)**  
-📧 Email: 1@insoweb.ru  
-🖥️ GitLab: доступ по запросу (https://gitlab.dev.insoweb.ru/)    
-🖥️ GitHub 1: [official-inso](https://github.com/official-inso)   
-🖥️ GitHub 2: [poma098](https://github.com/poma098)  
-🤖 Telegram: [poma098](https://t.me/poma098)
+<img src="./.github/assets/logo.svg" alt="INSO" width="120" />
 
+# INSO
 
----
+**Делаем облачные продукты. И опенсорс заодно.**
 
-## 🧠 О себе
-
-Опыт коммерческой frontend-разработки с 2020 года, в сфере web-программирования развиваюсь с 2018. Специализируюсь на создании масштабируемых и адаптивных интерфейсов, кастомных UI-библиотек, работе с real-time логикой, WebSocket и Canvas. Принимал участие в архитектурном проектировании приложений, имею опыт реализации UI с нуля, включая разработку внутренней дизайн-системы.
-
-Есть опыт преподавания в университете и частной школе, а также опыт backend-разработки (микросервисы на TypeScript), развёртывания инфраструктуры на серверах с Docker и Ubuntu, настройки CI/CD.
-
-Во время учёбы в университете получил базовый опыт работы с **1С** (управляемые формы, отчёты) и **Python** (скрипты, парсинг, CLI-утилиты).
+</div>
 
 ---
 
-## 🛠️ Ключевые технологии
+## Кто мы
 
-- **Frontend:** React, Next.js, TypeScript, MobX, Redux Toolkit (RTK, RTK Query), React Query, WebSocket, Canvas, TailwindCSS, Shadcn UI, Vanilla JS, Electron
-- **UI/UX:** Проектирование интерфейсов, дизайн-системы, написание собственных UI-компонентов
-- **CI/CD:** GitLab CI, GitHub Actions (начальный уровень)
-- **Backend (дополнительно):** Node.js, микросервисы на TypeScript, немного PHP
-- **Инфраструктура:** VPS (Ubuntu), Docker, настройка Nginx, автоматизация деплоя
-- **Тестирование / DevTools:** Jest, ESLint
-- **Дополнительно:** Опыт с 1С и Python на базовом уровне
+Мы — **INSO**. Пишем облачные продукты, которые держат нагрузку, и параллельно делаем себе инструменты, без которых работать было бы грустно. Эти инструменты потом выкладываем в опенсорс — заходите, пользуйтесь.
+
+Если нужна разработка под заказ — это к нам тоже, подробнее на [studio.insoweb.ru](https://studio.insoweb.ru).
 
 ---
 
-## 💼 Опыт работы
+## В личном кабинете
 
-### ООО «Меридиан Инжиниринг»  
-**Программист 1 категории**  
-*Август 2023 — настоящее время*
+Часть наших продуктов живёт в [lk.insoweb.ru](https://lk.insoweb.ru). Что там есть прямо сейчас:
 
-- Разработка внутренних SPA-приложений с нуля
-- Реализация WebSocket-логики и real-time взаимодействия
-- Canvas-визуализация: схемы, статусы, элементы управления
-- Панели для отчётности производственного персонала
-- Внедрение MobX и React Query
-- Поддержка и ускорение проекта Protech (Vanilla JS, Web Worker)
-- Создание киоск-браузера (React + Electron) за 2–3 дня
+- **Анализ сайтов** — мониторинг доступности и производительности, проверки по расписанию, отчёты по аномалиям.
+- **Сокращатель ссылок** — короткие ссылки с аналитикой кликов и географией заходов.
+- **Конструктор квизов** — опросы и формы в духе Typeform, со сбором ответов и аналитикой.
+
+И ещё кое-что — заходите, посмотрите.
 
 ---
 
-### Умный Маркетинг (аутсорс)  
-**Fullstack-разработчик (React + PHP)**  
-*Июнь 2022 — Август 2023*
+## ELS — наш аналог Sentry
 
-- Разработка интерфейсов и административных панелей
-- Интеграция PHP-бэкенда и фронтенда на React
-- Работа с REST API, формы, отчёты
+**ELS** (Event Logs Service) — платформа для сбора событий и ошибок из приложений. По сути — аналог Sentry: подключаете SDK, шлёте логи и ошибки, получаете дашборд с поиском, фильтрами, графиками и AI-подсказками по тому, что у вас сломалось.
 
----
+SDK совместимы по протоколу и одинаково умеют буферизовать события, ретраить и не падать, если сервер недоступен. Выбирайте под свой стек:
 
-## 🎓 Преподавание
+### Языки и бэкенд
 
-- **РЭУ им. Г.В. Плеханова (Москва)**  
-  *Преподаватель баз данных и frontend-разработки*  
-  *Сентябрь 2023 — настоящее время*
+- **[els-go](https://github.com/official-inso/els-go)** — нативный Go SDK без зависимостей &nbsp; ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+- **[els-java](https://github.com/official-inso/els-java)** — JDK 17+, Spring Boot starter, SLF4J appender &nbsp; ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+- **[els-csharp](https://github.com/official-inso/els-csharp)** — .NET Standard 2.0+, middleware для ASP.NET, провайдер `ILogger` &nbsp; ![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 
-- **Skilltris (школа IT на базе местного технопарка)**  
-  *Преподаватель frontend*  
-  *Октябрь 2020 — настоящее время*
+### JavaScript — клиент и фронтенд
 
----
+- **[els-client](https://github.com/official-inso/els-client)** — универсальный TS/JS, работает в браузере и Node, ~3 KB gzip &nbsp; ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![npm](https://img.shields.io/npm/v/@inso_web/els-client?style=flat-square&color=CB3837&label=npm)
+- **[els-react](https://github.com/official-inso/els-react)** — провайдер, хук `useELS`, `ErrorBoundary` &nbsp; ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![npm](https://img.shields.io/npm/v/@inso_web/els-react?style=flat-square&color=CB3837&label=npm)
+- **[els-vue](https://github.com/official-inso/els-vue)** — плагин и composable для Vue 3, дружит с Nuxt, Vite и Quasar &nbsp; ![Vue](https://img.shields.io/badge/-Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![npm](https://img.shields.io/npm/v/@inso_web/els-vue?style=flat-square&color=CB3837&label=npm)
+- **[els-next](https://github.com/official-inso/els-next)** — Next.js, App Router и edge runtime &nbsp; ![Next](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) ![npm](https://img.shields.io/npm/v/@inso_web/els-next?style=flat-square&color=CB3837&label=npm)
 
-## 🚀 Проекты
+### JavaScript — серверные фреймворки
 
-### 1. Проект для концерна «Калашников» *(под NDA)*
-- SPA для отображения перемещений оборудования
-- Canvas-визуализация, WebSocket-подписки, MobX-состояние
-- Архитектура и реализация интерфейса с нуля
-  
-**Стек:** React, MobX, WebSocket, Canvas, TypeScript
-#### По запросу могу рассказать и предоставить информацию
+- **[els-express](https://github.com/official-inso/els-express)** — middleware для Express 4/5: логгер запросов + обработчик ошибок &nbsp; ![Express](https://img.shields.io/badge/-Express-000?style=flat-square&logo=express&logoColor=white) ![npm](https://img.shields.io/npm/v/@inso_web/els-express?style=flat-square&color=CB3837&label=npm)
+- **[els-nest](https://github.com/official-inso/els-nest)** — `LoggerService` для NestJS, request-scoped через `ClsModule` &nbsp; ![Nest](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![npm](https://img.shields.io/npm/v/@inso_web/els-nest?style=flat-square&color=CB3837&label=npm)
+
+### Для AI-агентов
+
+- **[@inso_web/els-mcp](https://www.npmjs.com/package/@inso_web/els-mcp)** — MCP-сервер, который даёт AI-агентам (Claude Code, Cursor и подобным) read-only доступ к логам ELS. Можно искать ошибки, разбирать регрессии и спрашивать «а что там у меня горит» прямо из редактора. Подробности и документация — на [mcp.insoweb.ru/els](https://mcp.insoweb.ru/els), сам эндпоинт — `https://mcp.insoweb.ru/els/mcp` &nbsp; ![MCP](https://img.shields.io/badge/-MCP%20server-7C3AED?style=flat-square) ![npm](https://img.shields.io/npm/v/@inso_web/els-mcp?style=flat-square&color=CB3837&label=npm)
 
 ---
 
-### 2. Protech  
-[https://prod.protech.mrdn.cloud](https://prod.protech.mrdn.cloud)  
-- Поддержка легаси-кода на чистом JS  
-- Внедрение WebSocket, ускорение графиков через Web Worker  
-**Стек:** Vanilla JS, WebSocket, Web Worker
+## opfs-studio
+
+**[opfs-studio](https://github.com/official-inso/opfs-studio)** — браузерное расширение (Manifest V3) для работы с **Origin Private File System**. Ставится в Chrome, Edge или Firefox; открывается в Side Panel браузера или как отдельная вкладка в DevTools — кому как удобнее.
+
+Что умеет: дерево файлов и папок OPFS, редактор кода на базе Monaco (с подсветкой 20+ языков), превью изображений, видео, аудио и PDF, импорт и экспорт с диска, синхронизация изменений в реальном времени.
+
+Самое забавное: похожего инструмента не существует. Ни в Chrome, ни в Chromium у Google штатной возможности заглянуть в OPFS из браузера не завезли — пришлось делать самим.
+
+![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Monaco](https://img.shields.io/badge/-Monaco%20Editor-0078D4?style=flat-square&logo=visualstudiocode&logoColor=white)
 
 ---
 
-### 3. Киоск-браузер (intranet)  
-- Электронное приложение для офлайн-терминалов  
-- Быстрая реализация (2–3 дня)  
-**Стек:** React, Electron, TypeScript
+## Чем пользуемся
+
+![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/-C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vue](https://img.shields.io/badge/-Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Next](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Nest](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Express](https://img.shields.io/badge/-Express-000?style=flat-square&logo=express&logoColor=white)
+![Node](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
 ---
 
-### 4. UI-библиотека `selectyui`  
-- Кастомизируемый dropdown с accessibility  
-- Публикация в npm  
-[GitHub](https://github.com/poma098/selectyui) | [NPM](https://www.npmjs.com/package/selectyui)  
-**Стек:** React, TypeScript, CSS Modules
+## Написать нам
 
----
+- по общим вопросам → **[1@insoweb.ru](mailto:1@insoweb.ru)**
+- по партнёрству и продажам → **[sale@insoweb.ru](mailto:sale@insoweb.ru)**
+- если что-то сломалось → **[support@insoweb.ru](mailto:support@insoweb.ru)**
+- нашли баг или уязвимость → **[dev@insoweb.ru](mailto:dev@insoweb.ru)**
+- голосом → **[+7 (995) 48-22-000](tel:+79954822000)**
 
-### 5. Сервис авторизации (SSO)  
-- Подключение через OAuth, обработка токенов  
-- Кастомная форма авторизации  
-**Стек:** Next.js, React, TailwindCSS, Shadcn UI
-
----
-
-### 6. Платформа анализа данных *(в разработке)*  
-- Разработка интерфейса с real-time и микросервисной архитектурой  
-- Автоматизация сборки и деплоя  
-**Стек:** Next.js, React, TailwindCSS, WebSocket, GitLab CI, TypeScript
-
----
-
-### 7. Учёт простоев оборудования  
-- Интерфейс для планшетов, фиксация причин остановок  
-- Form wizard, MobX, WebSocket  
-**Стек:** React, MobX, React Query
-
----
-
-### 8. Pet-проекты и фриланс  
-- Лендинги, панели, мини-SaaS  
-- Инфраструктура: Ubuntu, Nginx, CI/CD, мониторинг  
-**Стек:** React, Next.js, Tailwind, GitLab CI, Ubuntu Server
-
----
-
-## 🔧 Дополнительно
-
-- Участие в проектировании архитектуры, самостоятельная разработка приложений
-- Настройка CI/CD, Docker, серверной инфраструктуры
-- Опыт менторства и преподавания
-- Уверенное чтение технической документации на английском языке
-- Базовый опыт работы с 1С и Python (университетские проекты)
-
----
-
-## 🎓 Образование
-
-**РЭУ им. Г.В. Плеханова (Москва)**  
-Бакалавриат, Прикладная информатика в экономике
+<sub>© INSO</sub>
