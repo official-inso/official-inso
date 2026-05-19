@@ -1,12 +1,13 @@
-<div align="center">
+<p align="center">
+  <img src="./.github/assets/logo.svg" alt="" height="56" align="middle" />
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/wordmark-dark.svg" />
+    <img src="./.github/assets/wordmark-light.svg" alt="INSO" height="56" align="middle" />
+  </picture>
+</p>
 
-<img src="./.github/assets/logo.svg" alt="INSO" width="120" />
-
-# INSO
-
-**Делаем облачные продукты. И опенсорс заодно.**
-
-</div>
+<p align="center"><b>Делаем облачные продукты. И опенсорс заодно.</b></p>
 
 ---
 
